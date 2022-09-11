@@ -1,0 +1,542 @@
+.rests {
+  margin-top: 39.99px;
+}
+.whitepapersInner {
+  width: 95%;
+  margin: 0 auto 171.68px;
+}
+.whitepapersLeft {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.whitepapersRight {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  width: fit-content;
+  margin-left: auto;
+}
+.whitepapersRight h2 {
+  max-width: 566px;
+  width: 100%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #000000;
+  margin-bottom: 16px;
+}
+.whitepapersRight h2 span {
+  background: linear-gradient(260.31deg, #2b2263 7.82%, #6d24e4 91.92%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.whitepapersRight ul {
+  list-style: none;
+}
+.whitepapersRight ul li {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+  opacity: 0.6;
+  max-width: 464px;
+  width: 100%;
+  padding-left: 15px;
+}
+.whitepapersRight ul li::before {
+  content: "\2022";
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  background: linear-gradient(260.31deg, #2b2263 7.82%, #6d24e4 91.92%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-left: -1em;
+}
+
+/* passiveIncome */
+.passiveIncome {
+  position: relative;
+}
+.passiveRightAbs {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateY(-100%) !important;
+}
+.passiveIncomeInner {
+  width: 95%;
+  margin: 0 auto 310px;
+}
+.passiveIncomeLeft {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  width: fit-content;
+  margin-right: auto;
+  position: relative;
+}
+.piePassive {
+  position: absolute;
+  left: 20%;
+  top: 0;
+  transform: translateY(-70%);
+}
+.passiveIncomeLeft h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #000000;
+  max-width: 546px;
+  width: 100%;
+  margin-bottom: 14px;
+}
+.passiveIncomeLeft h2 span {
+  background: linear-gradient(260.31deg, #2b2263 7.82%, #6d24e4 91.92%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.passiveIncomeLeft ul {
+  list-style: none;
+}
+.passiveIncomeLeft ul li {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+  opacity: 0.6;
+  max-width: 573px;
+  width: 100%;
+  padding-left: 15px;
+}
+.passiveIncomeLeft ul li::before {
+  content: "\2022";
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  background: linear-gradient(260.31deg, #2b2263 7.82%, #6d24e4 91.92%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-left: -1em;
+}
+.passiveIncomeRight {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+.passiveRightPercentAbsImg {
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+  transform: translateY(94px);
+}
+.passiveRightDollarAbsImg {
+  position: absolute;
+  top: 0;
+  left: 20%;
+  transform: translateY(-80%);
+}
+/* trust */
+.trust {
+  position: relative;
+}
+
+.trustInner {
+  width: 95%;
+  margin: 0 auto 189px;
+}
+.trustLeft {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.trustLeftImg {
+  position: relative;
+  z-index: 3;
+}
+.trustPie {
+  position: absolute;
+  right: 8px;
+  top: 0;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+.trustImgWrapper {
+  position: relative;
+}
+.trustRight {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  width: fit-content;
+  margin-left: auto;
+}
+.trustRight h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #000000;
+  margin-bottom: 26px;
+}
+.trustRight h2 span {
+  background: linear-gradient(260.31deg, #2b2263 7.82%, #6d24e4 91.92%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.trustRight ul {
+  list-style: none;
+}
+.trustRight ul li {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+  opacity: 0.6;
+  max-width: 491px;
+  width: 100%;
+  padding-left: 15px;
+}
+.trustRight ul li::before {
+  content: "\2022";
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  background: linear-gradient(260.31deg, #2b2263 7.82%, #6d24e4 91.92%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-left: -1em;
+}
+/* project */
+.projectInner {
+  width: 95%;
+  margin: 0 auto 106.08px;
+}
+.projectLeft {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  width: fit-content;
+  margin-right: auto;
+}
+.projectLeft h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #000000;
+}
+.projectLeft h2 span {
+  background: linear-gradient(260.31deg, #2b2263 7.82%, #6d24e4 91.92%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.projectLeft ul {
+  list-style: none;
+}
+.projectLeft ul li {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+  opacity: 0.6;
+  max-width: 511px;
+  width: 100%;
+  padding-left: 15px;
+}
+.projectLeft ul li::before {
+  content: "\2022";
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  background: linear-gradient(260.31deg, #2b2263 7.82%, #6d24e4 91.92%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-left: -1em;
+}
+.projectRight {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.projectRightImgWrapper {
+  position: relative;
+}
+.vs {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0;
+  transform: translateY(-75%);
+}
+/* track */
+.track {
+  position: relative;
+  background-image: url("../../../assets/images/trackMetricsBg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.trackAbs {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translateY(-100%);
+}
+.trackInner {
+  width: 95%;
+  margin: 0 auto 197px;
+}
+.trackLeft {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.trackRight {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  width: fit-content;
+  margin-left: auto;
+}
+.trackRight h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #000000;
+}
+.trackRight h2 span {
+  background: linear-gradient(260.31deg, #2b2263 7.82%, #6d24e4 91.92%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.trackRight ul {
+  list-style: none;
+}
+.trackRight ul li {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+  opacity: 0.6;
+  /* max-width: 491px; */
+  width: 100%;
+  padding-left: 15px;
+}
+.trackRight ul li::before {
+  content: "\2022";
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  background: linear-gradient(260.31deg, #2b2263 7.82%, #6d24e4 91.92%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-left: -1em;
+}
+
+/* comingSoon */
+.comingSoonInner {
+  width: 95%;
+  margin: 0 auto 114.33px;
+}
+.bubble {
+  max-width: 181px;
+  width: 100%;
+  height: 37.45px;
+  background: #6d24e4;
+  border-radius: 18.7241px;
+  margin-bottom: 8.55px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18.7241px;
+  line-height: 28px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.comingSoonLeft {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  width: fit-content;
+  margin-right: auto;
+}
+.comingSoonLeft h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #000000;
+  margin-bottom: 9px;
+  max-width: 524px;
+  width: 100%;
+}
+.comingSoonLeft h2 span {
+  background: linear-gradient(260.31deg, #2b2263 7.82%, #6d24e4 91.92%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.comingSoonLeft ul {
+  list-style: none;
+}
+.comingSoonLeft ul li {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+  opacity: 0.6;
+  max-width: 511px;
+  width: 100%;
+  padding-left: 15px;
+}
+.comingSoonLeft ul li::before {
+  content: "\2022";
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  background: linear-gradient(260.31deg, #2b2263 7.82%, #6d24e4 91.92%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-left: -1em;
+}
+.comingSoonRight {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* compare */
+.compare {
+  padding-bottom: 148px;
+  position: relative;
+}
+.compareRightAbs {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateY(-35%);
+}
+.compareInner {
+  width: 95%;
+  margin: 0 auto;
+}
+.compareLeft {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.compareRight {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  width: fit-content;
+  margin-left: auto;
+}
+.compareRight h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.compareRight h2 span {
+  background: linear-gradient(260.31deg, #2b2263 7.82%, #6d24e4 91.92%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.compareRight ul {
+  list-style: none;
+}
+.compareRight ul li {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+  opacity: 0.6;
+  /* max-width: 491px; */
+  width: 100%;
+  padding-left: 15px;
+}
+.compareRight ul li::before {
+  content: "\2022";
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  background: linear-gradient(260.31deg, #2b2263 7.82%, #6d24e4 91.92%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-left: -1em;
+}

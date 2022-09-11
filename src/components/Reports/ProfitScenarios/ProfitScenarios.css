@@ -1,0 +1,102 @@
+.create-customsc-btn {
+    margin-top: 65px;
+    width: 212px;
+    height: 72px;
+    background: linear-gradient(180deg, #48A3F6 0%, #1780E0 100%);
+    border-radius: 36.2419px;
+    font-weight: 400;
+    font-size: 14.2258px;
+    line-height: 17px;
+    color: white;
+}
+
+.cent {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.ps-container {
+    width: 80%;
+    margin-top: 62px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ps {
+    margin: 1%;
+}
+
+.ps-title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: white;
+}
+
+.ps-data-container {
+    margin-top: 38px;
+}
+
+.ps-info-container {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ps-info-total {
+    text-align: left;
+}
+
+.ps-info-ti {
+    font-weight: 400;
+    font-size: 13.3918px;
+    line-height: 19px;
+}
+
+.ps-info-ti-amt {
+    font-weight: 400;
+    font-size: 11.3315px;
+    line-height: 13px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.ps-info-profit {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.ps-info-pr {
+    font-weight: 400;
+    font-size: 11.3315px;
+    line-height: 13px;
+    opacity: 0.8;
+}
+
+.ps-info-pr-amt {
+    font-weight: 400;
+    font-size: 14.4219px;
+    line-height: 17px;
+}
+
+.ps-graph-container {
+    margin-top: 25px;
+    width: 400px;
+}
+
+.ps-bottom-container {
+    display: flex;
+    justify-content: center;
+}
+
+.ps-bottom {
+    height: 500px;
+    margin-top: 50px;
+    width: 85%;
+    background: #c4c4c405;
+    border-radius: 23px;
+    padding: 2%;
+}

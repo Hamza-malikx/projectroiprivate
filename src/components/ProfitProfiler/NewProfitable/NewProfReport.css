@@ -1,0 +1,52 @@
+.npr-center {
+    display: flex;
+    justify-content: center;
+}
+
+.npr-border-maker {
+    width: 80%;
+    height: 82px;
+    border-radius: 12px;
+    padding: 1px;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.npr-container {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: #131828;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.npr-circle-outer {
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 2px;
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+}
+
+.npr-circle-inner {
+    background: #131828;
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+
+.npr-text {
+    width: 80%;
+    text-align: left;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    background: linear-gradient(180deg, #48A3F6 0%, #1780E0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}

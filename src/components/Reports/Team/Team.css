@@ -1,0 +1,24 @@
+.profile-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
+}
+
+.add-user-container {
+    width: 224px;
+    height: 68px;
+    background: linear-gradient(92.03deg, #FFB546 1.35%, #F4E23E 89.81%);
+    border-radius: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+}
+
+.add-user {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #11192A;
+}

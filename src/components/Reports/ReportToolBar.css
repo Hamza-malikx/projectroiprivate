@@ -1,0 +1,96 @@
+.main-box {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+}
+
+.box1 {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.b1 {
+    display: flex-box;
+    width: 82px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.b2 {
+    display: flex-box;
+    width: 95px;
+    height: 24px;
+    margin-left: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background: linear-gradient(260.69deg, #2E1F8B -33.31%, #6D24E4 91.97%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.box2 {
+    display: flex;
+    height: 70px;
+    margin-right: 5%;
+}
+
+.c1 {
+    padding-top: 7px;
+    margin-right: 30px;
+    width: 49.29px;
+    height: 49.29px;
+    background:
+        linear-gradient(260.69deg, #2E1F8B -33.31%, #6D24E4 91.97%);
+    border-radius: 31px;
+}
+
+.ShareIcon {
+    color: white;
+    height: 35px;
+    width: 35px;
+}
+
+.c2 {
+    display: flex;
+    width: 207px;
+    height: 49.29px;
+    background: #373737;
+    border-radius: 24.6429px;
+}
+
+.cc {
+    display: flex;
+    padding-top: 12px;
+    justify-content: center;
+    width: 49.29px;
+    height: 49.29px;
+    background:
+        linear-gradient(260.69deg, #2E1F8B -33.31%, #6D24E4 91.97%);
+    border-radius: 31px;
+}
+
+.chartIcon {
+    color: white;
+    height: 35px;
+    width: 35px;
+}
+
+.rt {
+    margin-top: 15px;
+    margin-left: 5px;
+    width: 109px;
+    height: 19px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.6735px;
+    color: #FFFFFF;
+}

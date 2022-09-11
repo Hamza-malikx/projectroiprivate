@@ -1,0 +1,276 @@
+.cardsSection {
+  padding-top: 34px;
+  position: relative;
+}
+.absRightImg {
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+.cardsSectionInner h6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 13px;
+}
+.cardsSectionInner h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  background: linear-gradient(260.31deg, #2b2263 7.82%, #6d24e4 91.92%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-bottom: 13px;
+}
+.cardsSectionInner p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  max-width: 856px;
+  width: 100%;
+  margin: 0 auto 0;
+}
+.cardsWrapper {
+  margin-top: 70px;
+  position: relative;
+  background-image: url("../../../assets/images/cardsWrapperBg.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 90%;
+  background-size: contain;
+  margin-bottom: 237px;
+}
+.card {
+  padding: 45px 11px 61px;
+  background: linear-gradient(
+    180deg,
+    rgba(22, 23, 27, 0.0312) 0%,
+    rgba(22, 23, 27, 0.0032) 100%
+  );
+  box-shadow: 0px 4px 4px rgba(109, 36, 228, 0.27);
+  border-radius: 28px;
+  border: 1px solid rgba(109, 36, 228, 0.27);
+  backdrop-filter: blur(10px);
+  margin-top: 10px;
+  width: 95%;
+  transition: all 2s;
+}
+.card2 {
+  backdrop-filter: blur(0px);
+}
+.card:hover {
+  cursor: pointer;
+  /* margin-top: 0px;
+  transition: all 2s; */
+}
+.card h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 12px;
+}
+.card p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 25px;
+}
+.circle {
+  max-width: 123.57px;
+  width: 100%;
+  height: 122.66px;
+  /* background: rgba(0, 0, 0, 0.33); */
+  background: rgb(240, 240, 240);
+  border-radius: 61.3309px;
+  margin: auto;
+  position: relative;
+}
+.circle img {
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+}
+.circle2 {
+  max-width: 123.57px;
+  width: 100%;
+  height: 122.66px;
+  /* background: rgba(0, 0, 0, 0.33); */
+  background: rgb(240, 240, 240);
+  border-radius: 61.3309px;
+  margin: auto;
+  position: relative;
+}
+.circle2 img {
+  position: absolute;
+  right: 21px;
+  top: 22px;
+}
+.circle3 {
+  max-width: 123.57px;
+  width: 100%;
+  height: 122.66px;
+  /* background: rgba(0, 0, 0, 0.33); */
+  background: rgb(240, 240, 240);
+  border-radius: 61.3309px;
+  margin: auto;
+  position: relative;
+}
+.circle3 img {
+  position: absolute;
+  right: 19px;
+  top: 17px;
+}
+
+/* Roi Section */
+.roi {
+  min-height: 688.01px;
+  background-image: url("../../../assets/images/roiBg.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+.roiTopAbsImg {
+  position: absolute;
+  left: 0;
+  top: -100px;
+}
+.roiInner {
+  width: 94%;
+  margin: 0 auto;
+  padding-top: 138px;
+}
+.roiWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.roiLeft {
+  width: 48%;
+  align-self: center;
+}
+.roiLeft h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  margin-bottom: 17px;
+  color: #ffffff;
+}
+.roiLeft h3 span {
+  font-weight: 600;
+  background: linear-gradient(92.03deg, #ffb546 1.35%, #f4e23e 89.81%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.roiLeft ul {
+  list-style: none;
+}
+.roiLeft ul li {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+  opacity: 0.6;
+}
+.roiLeft ul li::before {
+  content: "\2022";
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  background: linear-gradient(92.03deg, #ffb546 1.35%, #f4e23e 89.81%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-left: -1em;
+}
+.roiRight {
+  position: relative;
+  width: 48%;
+}
+.roiRightInner {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.roiBgMiddle {
+  position: absolute;
+  left: -120px;
+  z-index: 2;
+  margin-left: auto;
+}
+.dshImg {
+  position: relative;
+  z-index: 4;
+  top: -46.82px;
+  right: -32px;
+  margin-left: auto;
+}
+.dshImgWrapper {
+  position: relative;
+}
+.arrowImg {
+  position: absolute;
+  right: -7px;
+  bottom: -50px;
+  z-index: 5;
+}
+.dollarIcon {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+}
+.andIcon {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  transform: translateX(-74px);
+}
+.bMiddleIcon {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 20%;
+  margin: 0 auto;
+  transform: translateY(25px);
+}
+.percentIcon {
+  position: absolute;
+  bottom: -10px;
+  right: -32px;
+}
+@media screen and (min-width: 1440px) {
+  .roiLeft {
+    align-self: end;
+    margin-bottom: 45px;
+  }
+}

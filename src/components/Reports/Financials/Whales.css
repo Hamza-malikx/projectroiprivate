@@ -1,0 +1,56 @@
+.w-table-container {
+    text-align: left;
+    color: white;
+    margin-top: 20px;
+    height: 100%;
+}
+
+.w-table-row {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+.w-alt-row {
+    background: rgba(196, 196, 196, 0.06);
+}
+
+.w-row-heading {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.mr {
+    margin-right: 5px;
+}
+
+.w-fw {
+    width: 150px;
+
+}
+
+.w-scroll {
+    margin-top: 5px;
+    height: 70%;
+    overflow: auto;
+}
+
+.w-table-element {
+    font-weight: 400;
+}
+
+.w-holding {
+    color: #8146FF;
+    padding-left: 15px;
+}
+
+.w-trades {
+    padding-left: 15px;
+    color: #1E45A8;
+}

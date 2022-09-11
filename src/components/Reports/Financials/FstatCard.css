@@ -1,0 +1,43 @@
+.st-card-back {
+    width: 330px;
+    height: 170px;
+    background: #3e3e3e1a;
+    box-shadow: 0px 3.89266px 3.89266px rgba(0, 0, 0, 0.03);
+    border-radius: 22.3828px;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.st-card-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.st-card-date {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    text-align: left;
+}
+
+.st-card-val {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    background: linear-gradient(180deg, #48A3F6 0%, #1780E0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: left;
+    margin-top: 10px;
+}

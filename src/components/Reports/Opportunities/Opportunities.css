@@ -1,0 +1,49 @@
+.table-container {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.table-column {
+    display: inline-block;
+    margin-right: 41.5px;
+    margin-left: 41.5px;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.table-column-heading {
+    font-weight: 500;
+    color: #02C2C0;
+    margin-bottom: 18px;
+}
+
+.table-element {
+    font-weight: 400;
+    color: white;
+    margin-bottom: 24px;
+}
+
+.source {
+    background: linear-gradient(180deg, #48A3F6 0%, #1780E0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.source-icon {
+    display: inline-block;
+    margin-right: 12.24px;
+    margin-bottom: -5px;
+}
+
+.divider {
+    width: 0px;
+    height: 180px;
+    opacity: 0.4;
+    background: white;
+    border: 1px solid #FFFFFF;
+    margin-top: -20px;
+}

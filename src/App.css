@@ -1,0 +1,42 @@
+/* .App {
+  text-align: center;
+} */
+
+.section {
+  margin-bottom: 113px;
+}
+
+.section-header {
+  margin-top: 20px;
+  height: 95px;
+  background: linear-gradient(260.69deg, #2e1f8b -33.31%, #6d24e4 91.97%);
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.section-header-title {
+  margin-left: 80px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  width: 600px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.section-header-collapse {
+  display: flex;
+  justify-content: right;
+  width: 100%;
+  margin-right: 50px;
+  align-items: center;
+}
+
+.sh-qmark {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  margin-top: 2px;
+}
